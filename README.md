@@ -1,4 +1,4 @@
-# sensitivity_analysis_decision_tree
+# sensitivity analysis decision tree
 This repository contains the Python implementation of the analytical framework presented in the paper **“Comprehensive Framework for Sensitivity Analysis in Decision Tree-based Classification”**, submitted to **IEEE I²MTC 2026**.
 
 The framework provides a **Monte Carlo–free sensitivity analysis** method for Decision Tree classifiers.
@@ -9,12 +9,12 @@ This allows computing the **probability of correct classification** for a given 
 
 ## **Features**
 
-* - Extracts all decision conditions (feature thresholds and signs) for each leaf
-* - Models feature uncertainties as Gaussian PDFs
-* - Propagates uncertainties analytically
-* - Computes the probability of reaching each leaf
-* - Aggregates probabilities to estimate **per-class correct classification probability**
-* - Works with any scikit-learn DecisionTreeClassifier
+- Extracts all decision conditions (feature thresholds and signs) for each leaf
+- Models feature uncertainties as Gaussian PDFs
+- Propagates uncertainties analytically
+- Computes the probability of reaching each leaf
+- Aggregates probabilities to estimate **per-class correct classification probability**
+- Works with any scikit-learn DecisionTreeClassifier
 
 ---
 
